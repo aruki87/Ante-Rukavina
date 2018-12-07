@@ -1,0 +1,3 @@
+﻿  aspen.cpp
+c:\users\uc-m02\documents\ante rukavina\aspen\aspen\aspen.cpp(15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  aspen.vcxproj -> C:\Users\UC-M02\Documents\Ante Rukavina\aspen\Debug\aspen.exe

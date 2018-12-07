@@ -1,0 +1,4 @@
+﻿  random.cpp
+c:\users\uc-m02\source\repos\random\random\random.cpp(17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\uc-m02\source\repos\random\random\random.cpp(13): warning C4101: 'r': unreferenced local variable
+  random.vcxproj -> C:\Users\UC-M02\source\repos\random\Debug\random.exe

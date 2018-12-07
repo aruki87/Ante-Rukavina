@@ -1,0 +1,4 @@
+﻿  fstream2.cpp
+c:\users\uc-m02\documents\ante rukavina\fstream2\fstream2\fstream2.cpp(33): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\uc-m02\documents\ante rukavina\fstream2\fstream2\fstream2.cpp(83): warning C4018: '<': signed/unsigned mismatch
+  fstream2.vcxproj -> C:\Users\UC-M02\Documents\Ante Rukavina\fstream2\Debug\fstream2.exe
