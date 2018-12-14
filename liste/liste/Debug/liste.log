@@ -1,0 +1,3 @@
+﻿  liste.cpp
+c:\users\uc-m02\documents\ante rukavina\liste\liste\liste.cpp(154): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  liste.vcxproj -> C:\Users\UC-M02\Documents\Ante Rukavina\liste\Debug\liste.exe

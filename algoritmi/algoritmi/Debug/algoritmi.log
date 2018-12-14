@@ -1,0 +1,6 @@
+﻿  algoritmi.cpp
+c:\users\uc-m02\documents\ante rukavina\algoritmi\algoritmi\algoritmi.cpp(14): warning C4018: '<': signed/unsigned mismatch
+c:\users\uc-m02\documents\ante rukavina\algoritmi\algoritmi\algoritmi.cpp(26): warning C4018: '<': signed/unsigned mismatch
+c:\users\uc-m02\documents\ante rukavina\algoritmi\algoritmi\algoritmi.cpp(54): warning C4018: '<': signed/unsigned mismatch
+c:\users\uc-m02\documents\ante rukavina\algoritmi\algoritmi\algoritmi.cpp(22): warning C4715: 'indeks': not all control paths return a value
+  algoritmi.vcxproj -> C:\Users\UC-M02\Documents\Ante Rukavina\algoritmi\Debug\algoritmi.exe

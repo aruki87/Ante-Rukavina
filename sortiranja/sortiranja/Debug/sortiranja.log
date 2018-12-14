@@ -1,0 +1,4 @@
+﻿  sortiranja.cpp
+c:\users\uc-m02\documents\ante rukavina\sortiranja\sortiranja\sortiranja.cpp(28): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\uc-m02\documents\ante rukavina\sortiranja\sortiranja\sortiranja.cpp(38): warning C4715: 'random1': not all control paths return a value
+  sortiranja.vcxproj -> C:\Users\UC-M02\Documents\Ante Rukavina\sortiranja\Debug\sortiranja.exe

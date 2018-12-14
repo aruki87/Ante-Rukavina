@@ -1,0 +1,3 @@
+1.	Ime: Alala			Prezime: fmekfm			Prosjecna ocjena: 2.4	Broj polozenih ECTS-a: 12
+2.	Ime: ekfoekfoekfoke		Prezime: foekofekf		Prosjecna ocjena: 3.5	Broj polozenih ECTS-a: 32
+3.	Ime: daf			Prezime: fgg			Prosjecna ocjena: 4.7	Broj polozenih ECTS-a: 44

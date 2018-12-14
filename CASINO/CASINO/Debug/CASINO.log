@@ -1,0 +1,6 @@
+﻿  CASINO.cpp
+c:\users\uc-m02\documents\ante rukavina\casino\casino\casino.cpp(40): warning C4101: 'b4': unreferenced local variable
+c:\users\uc-m02\documents\ante rukavina\casino\casino\casino.cpp(381): warning C4552: '+': result of expression not used
+c:\users\uc-m02\documents\ante rukavina\casino\casino\casino.cpp(413): warning C4552: '+': result of expression not used
+c:\users\uc-m02\documents\ante rukavina\casino\casino\casino.cpp(471): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  CASINO.vcxproj -> C:\Users\UC-M02\Documents\Ante Rukavina\CASINO\Debug\CASINO.exe
