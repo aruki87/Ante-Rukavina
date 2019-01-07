@@ -1,0 +1,3 @@
+﻿  klase i objekti kon des.cpp
+c:\users\uc-m02\documents\ante rukavina\klase i objekti kon des\klase i objekti kon des\klase i objekti kon des.cpp(24): warning C4717: 'Kutija::~Kutija': recursive on all control paths, function will cause runtime stack overflow
+  klase i objekti kon des.vcxproj -> C:\Users\UC-M02\Documents\Ante Rukavina\klase i objekti kon des\Debug\klase i objekti kon des.exe
