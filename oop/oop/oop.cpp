@@ -65,7 +65,7 @@ void Sef::zatvori_sef() {
 class Banka {
 private:
 	Sef s;
-	vector<Racun> korisnici;
+	vector<Stedni> korisnici;
 	bool jeli_korisnik(int broj_racuna);
 public:
 	int podigni_novac(int broj_racuna, int iznos);
@@ -105,6 +105,11 @@ int Banka::podigni_novac(int broj_racuna, int iznos) {
 	if (jeli_korisnik(broj_racuna)&&stanje_racuna(broj_racuna)>iznos) {
 		if (s.get_koliko_u_sefu > iznos) {
 			s.set_koliko_u_sefu(iznos);
+			for (int i = 0; i < korisnici.size(); i++) {
+				if (korisnici[i] == broj_racuna) {
+					korisnici[i].set_stanje(korisnici[i].get_stanje() - iznos);
+				}
+			}
 			cout << "Podigli ste " << iznos << " kuna." << endl;
 			return iznos;
 		}
@@ -178,6 +183,8 @@ Stedni::Stedni() {
 
 int main()
 {
-	
+	Banka b;
+	b.napravi_racun(123, 1000, "stedni");
+	b.podigni_novac(123, 200);
 }
 

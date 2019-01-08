@@ -1,0 +1,48 @@
+﻿  pch.cpp
+  oop.cpp
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(68): error C2065: 'Stedni': undeclared identifier
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(68): error C2923: 'std::vector': 'Stedni' is not a valid template type argument for parameter '_Ty'
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(68): error C2903: 'allocator': symbol is neither a class template nor a function template
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(68): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(78): error C2065: 'Stedni': undeclared identifier
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(78): error C2146: syntax error: missing ';' before identifier 'novi'
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(78): error C2065: 'novi': undeclared identifier
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(79): error C2065: 'novi': undeclared identifier
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(80): error C2065: 'novi': undeclared identifier
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(81): error C2065: 'novi': undeclared identifier
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(88): error C2662: '_Vector_alloc<_Alloc_types>::_Val_types::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(88): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(88): note: Conversion requires a second user-defined-conversion operator or constructor
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(89): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
+  c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(89): note: while trying to match the argument list '(std::vector, int)'
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(97): error C2662: '_Vector_alloc<_Alloc_types>::_Val_types::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(97): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(97): note: Conversion requires a second user-defined-conversion operator or constructor
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(98): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
+  c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(98): note: while trying to match the argument list '(std::vector, int)'
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(99): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
+  c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(99): note: while trying to match the argument list '(std::vector, int)'
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(106): error C3867: 'Sef::get_koliko_u_sefu': non-standard syntax; use '&' to create a pointer to member
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(106): error C2446: '>': no conversion from 'int' to 'int (__thiscall Sef::* )(void)'
+  c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(106): note: There are no conversions from integral values to pointer-to-member values
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(108): error C2662: '_Vector_alloc<_Alloc_types>::_Val_types::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(108): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(108): note: Conversion requires a second user-defined-conversion operator or constructor
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(109): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
+  c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(109): note: while trying to match the argument list '(std::vector, int)'
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(110): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
+  c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(110): note: while trying to match the argument list '(std::vector, int)'
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(110): error C2088: '[': illegal for class
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(121): error C2276: '!': illegal operation on bound member function expression
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(175): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\uc-m02\documents\ante rukavina\oop\oop\oop.cpp(179): warning C4305: '=': truncation from 'double' to 'float'
