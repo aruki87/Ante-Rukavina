@@ -3,8 +3,6 @@
 
 #include "pch.h"
 #include <iostream>
-#include <string>
-
 
 using namespace std;
 
@@ -12,12 +10,18 @@ class Node {
 private:
 	int value;
 	Node *next;
+	static int broj_elemenata;
 public:
+	static void koliko_elemenata();
+	Node();
+	~Node();
 	void set_value( int value1);
 	void set_next(Node *pointer);
 	int get_value();
 	Node* get_next();
 };
+
+int Node::broj_elemenata = 0;
 
 void Node::set_value( int value1) {
 	value = value1;
@@ -33,6 +37,18 @@ int Node::get_value() {
 
 Node* Node::get_next() {
 	return next;
+}
+
+Node::Node() {
+	broj_elemenata++;
+}
+
+Node::~Node() {
+	broj_elemenata--;
+}
+
+void Node::koliko_elemenata() {
+	cout << "Broj elemenata u listi je: "<<broj_elemenata << endl;
 }
 
 
@@ -127,9 +143,12 @@ int main()
 	for (int i = 0; i < n; i++) {
 		lista1.unos_pocetak(i);
 	}
+
+	Node::koliko_elemenata();
 	lista1.brisanje_kraj();
 	lista1.brisanje_pocetka();
 	lista1.ispis_liste();
+	Node::koliko_elemenata();
 	
 }
 
