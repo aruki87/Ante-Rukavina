@@ -5,6 +5,7 @@ document.getElementById('biopic','welcome').addEventListener("mouseenter", promj
 	
 	function promjeni(){
 		 
+		 
 		document.getElementById('biopic').setAttribute('src','images/negative.jpg');
 		 refreshIntervalId =setInterval(rotiraj, 100);
 		 promjeniPozadinu();

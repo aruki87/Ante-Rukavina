@@ -1,0 +1,250 @@
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding:0;
+  margin:0;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  margin-top: 50px;
+  margin-left: 0px;
+  font-size: 20px;
+  
+
+}
+
+img {
+   
+}
+
+body {
+     
+}
+
+.pattern{
+  background: url('images/pattern.png');
+}
+
+.alternative{
+  background-color: black;
+}
+
+#izbornik{
+padding-top: 10px;
+
+}
+
+#biopic{
+  width:12%; 
+  height:14%; 
+  margin-top:30px;
+  margin-left:20px;
+  border:1px solid #021a40;
+}
+
+
+
+.link{
+  margin-left: 100px;
+}
+
+#welcome{
+  float:right;
+  margin-top: 7%;
+  margin-right: 40%;
+  font-size:30px;
+  color: #FADA05;
+
+}
+
+#naslov {
+  
+  text-align: center;
+  width: 100%;
+}
+
+.cjelina{padding-left: 20px;}
+
+#navigacija {
+  margin-top: 30px;
+  
+}
+
+a:link {
+  color: brown;
+  text-decoration: none;
+}
+
+a:visited{
+  color: brown;
+  text-decoration: none;
+}
+
+#prvi{
+  padding-top: 30px;
+}
+
+.zadnji{
+  margin-top: 20px;
+}
+
+.light {
+  background: url('images/light.png');
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.flames {
+  background: url('images/flames.jpeg');
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+hr {
+  margin:0;
+}
+
+p {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #FADA05;
+  line-height: 48px;
+  
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: darkgray  ;
+  line-height: 29px;
+  padding: 10px;
+  margin-left: 60px;
+
+}
+
+h3 {
+  font-style: italic;
+  font-size: 15px;
+  color: #B5B4AE;
+  line-height: 22px;
+  
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #FADA05;
+  line-height: 17px;
+}
+
+
+.izbornik:visited{
+  color:#B5B4AE;
+}
+
+
+
+
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px;
+  padding-top: 10px;
+}
+
+#msg{
+  margin-left:70px;
+  width: 300px;
+  height: 150px;
+}
+
+#button{
+  margin-left:70px;
+}
+
+.embed{
+  margin-left:70px;
+}
+
+ul {
+  list-style-type: none;
+ 
+}
+
+
+
+/* Media queries to handle various device widths */
+
+
+@media only screen and (max-width: 800px) {
+  
+  #biopic{
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #welcome {
+    text-align: justify;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .izbornik{
+    margin-left: 0%;
+    margin-right:0%;
+    width: 50%;
+  }
+  .zadnji{
+    margin-top: 10%;
+  }
+  .flex-box{
+    flex-direction: column;
+
+  }
+
+  .link{
+    margin-left: 0%;
+    margin-right:0%;
+    width: 50%;
+  }
+
+  .embed{
+    margin-left: 0%;
+    margin-right:0%;
+    width: 100%;
+  }
+
+  #msg{
+    margin-left: 0%;
+    margin-right:0%;
+    width: 100%;
+  }
+
+#button{
+    margin-left: 0%;
+    margin-right:0%;
+    width: 100%;
+  }
+}
+
